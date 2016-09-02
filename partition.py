@@ -28,4 +28,4 @@ list_of_lists = recursive_partition(n)
 
 counted = Counter(tuple(sorted(entry)) for entry in list_of_lists)
 
-print(counted)
+print(list(counted.keys()))
